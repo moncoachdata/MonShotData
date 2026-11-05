@@ -2,7 +2,7 @@
 
 Ce dépôt réunit le code Python des shots de la newsletter [MonShotData](https://www.monshotdata.com) : des astuces concrètes en data science, machine learning et IA, que tu peux appliquer tout de suite.
 
-Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **172 notebooks** répartis en 15 dossiers de sujets, plus un dossier de jeux de données.
+Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **173 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
 
 ## Comment retrouver le code d'un shot
 
@@ -38,6 +38,7 @@ jupyter notebook
 | [`Plotting`](https://github.com/moncoachdata/MonShotData/tree/main/Plotting) | Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternatifs. | 30 |
 | [`Python`](https://github.com/moncoachdata/MonShotData/tree/main/Python) | Python au-delà des bases : classes, dataclasses, mutabilité, décorateurs… | 35 |
 | [`Sklearn`](https://github.com/moncoachdata/MonShotData/tree/main/Sklearn) | Scikit-learn : modèles de base, KMeans avec Faiss, Skorch, arbres de décision. | 6 |
+| [`SQL`](https://github.com/moncoachdata/MonShotData/tree/main/SQL) | Les joins SQL avec DuckDB : semi join, anti join, natural join. | 1 |
 | [`Statistiques`](https://github.com/moncoachdata/MonShotData/tree/main/Statistiques) | Corrélations et statistiques qui peuvent induire en erreur. | 3 |
 | [`Terminal`](https://github.com/moncoachdata/MonShotData/tree/main/Terminal) | Recherche de code, traçage et refactorisation depuis le terminal. | 3 |
 | [`Testing`](https://github.com/moncoachdata/MonShotData/tree/main/Testing) | Générer des données factices pour tester son code. | 1 |
@@ -364,6 +365,17 @@ _Scikit-learn : modèles de base, KMeans avec Faiss, Skorch, arbres de décision
 
 - [Données fictives avec Sklearn](https://github.com/moncoachdata/MonShotData/blob/main/Sklearn/Donne%CC%81es-fictives-avec-Sklearn.ipynb) · [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Sklearn/Donne%CC%81es-fictives-avec-Sklearn.ipynb)
 - [Importation Metrics](https://github.com/moncoachdata/MonShotData/blob/main/Sklearn/Importation-Metrics.ipynb) · [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Sklearn/Importation-Metrics.ipynb)
+
+</details>
+
+<details>
+<summary><b>SQL</b> · 1 notebooks</summary>
+
+_Les joins SQL avec DuckDB : semi join, anti join, natural join._
+
+| Shot | Notebook | |
+|---|---|---|
+| [Semi, Anti et Natural Join : 3 joins SQL méconnus](https://www.monshotdata.com/p/semi-join-anti-join-natural-join-sql) | [Semi, Anti et Natural Join](https://github.com/moncoachdata/MonShotData/blob/main/SQL/Semi-Anti-Natural-Join.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/SQL/Semi-Anti-Natural-Join.ipynb) |
 
 </details>
 
