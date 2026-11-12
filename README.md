@@ -2,7 +2,7 @@
 
 Ce dépôt réunit le code Python des shots de la newsletter [MonShotData](https://www.monshotdata.com) : des astuces concrètes en data science, machine learning et IA, que tu peux appliquer tout de suite.
 
-Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **173 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
+Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **174 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
 
 ## Comment retrouver le code d'un shot
 
@@ -29,7 +29,7 @@ jupyter notebook
 | [`Astuces Jupyter`](https://github.com/moncoachdata/MonShotData/tree/main/Astuces%20Jupyter) | Gagner du temps dans Jupyter : commandes magiques, sorties de cellules, interactivité. | 6 |
 | [`Debugging`](https://github.com/moncoachdata/MonShotData/tree/main/Debugging) | Déboguer autrement qu'avec `print()` : IceCream, PySnooper. | 3 |
 | [`Données Manquantes`](https://github.com/moncoachdata/MonShotData/tree/main/Donne%CC%81es%20Manquantes) | Visualiser et gérer les valeurs manquantes. | 2 |
-| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, évaluation et préparation des données. | 29 |
+| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, évaluation et préparation des données. | 30 |
 | [`NumPy`](https://github.com/moncoachdata/MonShotData/tree/main/NumPy) | Calcul matriciel, performances et petites astuces NumPy. | 8 |
 | [`Optimisation Mémoire`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20Me%CC%81moire) | Consommer moins de mémoire : générateurs, types de données. | 4 |
 | [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers. | 13 |
@@ -95,7 +95,7 @@ _Visualiser et gérer les valeurs manquantes._
 </details>
 
 <details>
-<summary><b>Machine Learning</b> · 29 notebooks</summary>
+<summary><b>Machine Learning</b> · 30 notebooks</summary>
 
 _Clustering, régression, PCA, réseaux de neurones, évaluation et préparation des données._
 
@@ -119,6 +119,7 @@ _Clustering, régression, PCA, réseaux de neurones, évaluation et préparation
 | [Clustering non supervisé : les 3 métriques essentielles à connaître](https://www.monshotdata.com/p/performance-clustering-non-supervise) | [Évaluation Clustering Non Supervisé](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/E%CC%81valuation-Clustering-Non-Supervise%CC%81.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/E%CC%81valuation-Clustering-Non-Supervise%CC%81.ipynb) |
 | [Arbres de décision : L'erreur que tout le monde fait (et comment l'éviter)](https://www.monshotdata.com/p/surapprentissage-arbres-decision) | [Surapprentissage arbres decision](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Surapprentissage-arbres-decision.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Surapprentissage-arbres-decision.ipynb) |
 | [Comment les réseaux de neurones gèrent les données non séparables](https://www.monshotdata.com/p/reseaux-neurones-non-lineaires) | [Transformation Réseau de Neurones](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Transformation-Re%CC%81seau-de-Neurones.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Transformation-Re%CC%81seau-de-Neurones.ipynb) |
+| [Ton accuracy stagne ? Mesure tes progrès avec le top-k](https://www.monshotdata.com/p/top-k-accuracy-mesurer-progres-modele-classification) | [Top-k Accuracy](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Top-k-Accuracy.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Top-k-Accuracy.ipynb) |
 
 **Autres notebooks du dossier**
 
