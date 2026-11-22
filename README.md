@@ -2,7 +2,7 @@
 
 Ce dépôt réunit le code Python des shots de la newsletter [MonShotData](https://www.monshotdata.com) : des astuces concrètes en data science, machine learning et IA, que tu peux appliquer tout de suite.
 
-Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **184 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
+Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **185 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
 
 ## Comment retrouver le code d'un shot
 
@@ -32,7 +32,7 @@ jupyter notebook
 | [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données. | 33 |
 | [`NumPy`](https://github.com/moncoachdata/MonShotData/tree/main/NumPy) | Calcul matriciel, performances et petites astuces NumPy. | 8 |
 | [`Optimisation Mémoire`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20Me%CC%81moire) | Consommer moins de mémoire : générateurs, types de données. | 4 |
-| [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers. | 14 |
+| [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, Spark, formats de fichiers. | 15 |
 | [`Outils cools`](https://github.com/moncoachdata/MonShotData/tree/main/Outils%20cools) | Des outils pratiques pour analyser ses données. | 1 |
 | [`Pandas`](https://github.com/moncoachdata/MonShotData/tree/main/Pandas) | Manipuler les DataFrames plus vite et plus proprement. | 29 |
 | [`Plotting`](https://github.com/moncoachdata/MonShotData/tree/main/Plotting) | Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternatifs. | 32 |
@@ -179,14 +179,15 @@ _Consommer moins de mémoire : générateurs, types de données._
 </details>
 
 <details>
-<summary><b>Optimisation du temps d'exécution</b> · 14 notebooks</summary>
+<summary><b>Optimisation du temps d'exécution</b> · 15 notebooks</summary>
 
-_Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers._
+_Aller plus vite : Pandas, NumPy, Numba, Codon, Spark, formats de fichiers._
 
 | Shot | Notebook | |
 |---|---|---|
 | [La vectorisation ne garantit pas toujours de meilleures performances](https://www.monshotdata.com/p/mythe-vectorisation) | [Mythe de la Vectorisation](https://github.com/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Mythe-de-la-Vectorisation.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Mythe-de-la-Vectorisation.ipynb) |
 | [Tu optimises ton code, mais pas tes fichiers ? Grosse erreur.](https://www.monshotdata.com/p/optimisation-format-stockage) | [Formats de stockage DataFrame](https://github.com/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Formats-de-Stockage-DataFrame.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Formats-de-Stockage-DataFrame.ipynb) |
+| [Pandas vers Spark : l'erreur qui ralentit tout](https://www.monshotdata.com/p/spark-cache-dataframe-lazy-evaluation) | [Spark : cache des DataFrames](https://github.com/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Spark-Cache-DataFrame.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Spark-Cache-DataFrame.ipynb) |
 
 **Autres notebooks du dossier**
 
