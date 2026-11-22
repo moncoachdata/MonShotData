@@ -2,7 +2,7 @@
 
 Ce dépôt réunit le code Python des shots de la newsletter [MonShotData](https://www.monshotdata.com) : des astuces concrètes en data science, machine learning et IA, que tu peux appliquer tout de suite.
 
-Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **174 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
+Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **184 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
 
 ## Comment retrouver le code d'un shot
 
@@ -29,16 +29,16 @@ jupyter notebook
 | [`Astuces Jupyter`](https://github.com/moncoachdata/MonShotData/tree/main/Astuces%20Jupyter) | Gagner du temps dans Jupyter : commandes magiques, sorties de cellules, interactivité. | 6 |
 | [`Debugging`](https://github.com/moncoachdata/MonShotData/tree/main/Debugging) | Déboguer autrement qu'avec `print()` : IceCream, PySnooper. | 3 |
 | [`Données Manquantes`](https://github.com/moncoachdata/MonShotData/tree/main/Donne%CC%81es%20Manquantes) | Visualiser et gérer les valeurs manquantes. | 2 |
-| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, évaluation et préparation des données. | 30 |
+| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données. | 33 |
 | [`NumPy`](https://github.com/moncoachdata/MonShotData/tree/main/NumPy) | Calcul matriciel, performances et petites astuces NumPy. | 8 |
 | [`Optimisation Mémoire`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20Me%CC%81moire) | Consommer moins de mémoire : générateurs, types de données. | 4 |
-| [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers. | 13 |
+| [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers. | 14 |
 | [`Outils cools`](https://github.com/moncoachdata/MonShotData/tree/main/Outils%20cools) | Des outils pratiques pour analyser ses données. | 1 |
-| [`Pandas`](https://github.com/moncoachdata/MonShotData/tree/main/Pandas) | Manipuler les DataFrames plus vite et plus proprement. | 28 |
-| [`Plotting`](https://github.com/moncoachdata/MonShotData/tree/main/Plotting) | Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternatifs. | 30 |
-| [`Python`](https://github.com/moncoachdata/MonShotData/tree/main/Python) | Python au-delà des bases : classes, dataclasses, mutabilité, décorateurs… | 35 |
+| [`Pandas`](https://github.com/moncoachdata/MonShotData/tree/main/Pandas) | Manipuler les DataFrames plus vite et plus proprement. | 29 |
+| [`Plotting`](https://github.com/moncoachdata/MonShotData/tree/main/Plotting) | Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternatifs. | 32 |
+| [`Python`](https://github.com/moncoachdata/MonShotData/tree/main/Python) | Python au-delà des bases : classes, dataclasses, mutabilité, décorateurs… | 36 |
 | [`Sklearn`](https://github.com/moncoachdata/MonShotData/tree/main/Sklearn) | Scikit-learn : modèles de base, KMeans avec Faiss, Skorch, arbres de décision. | 6 |
-| [`SQL`](https://github.com/moncoachdata/MonShotData/tree/main/SQL) | Les joins SQL avec DuckDB : semi join, anti join, natural join. | 1 |
+| [`SQL`](https://github.com/moncoachdata/MonShotData/tree/main/SQL) | Requêtes SQL avec DuckDB : joins, piège de NOT IN, GROUPING SETS. | 3 |
 | [`Statistiques`](https://github.com/moncoachdata/MonShotData/tree/main/Statistiques) | Corrélations et statistiques qui peuvent induire en erreur. | 3 |
 | [`Terminal`](https://github.com/moncoachdata/MonShotData/tree/main/Terminal) | Recherche de code, traçage et refactorisation depuis le terminal. | 3 |
 | [`Testing`](https://github.com/moncoachdata/MonShotData/tree/main/Testing) | Générer des données factices pour tester son code. | 1 |
@@ -95,9 +95,9 @@ _Visualiser et gérer les valeurs manquantes._
 </details>
 
 <details>
-<summary><b>Machine Learning</b> · 30 notebooks</summary>
+<summary><b>Machine Learning</b> · 33 notebooks</summary>
 
-_Clustering, régression, PCA, réseaux de neurones, évaluation et préparation des données._
+_Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données._
 
 | Shot | Notebook | |
 |---|---|---|
@@ -120,6 +120,9 @@ _Clustering, régression, PCA, réseaux de neurones, évaluation et préparation
 | [Arbres de décision : L'erreur que tout le monde fait (et comment l'éviter)](https://www.monshotdata.com/p/surapprentissage-arbres-decision) | [Surapprentissage arbres decision](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Surapprentissage-arbres-decision.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Surapprentissage-arbres-decision.ipynb) |
 | [Comment les réseaux de neurones gèrent les données non séparables](https://www.monshotdata.com/p/reseaux-neurones-non-lineaires) | [Transformation Réseau de Neurones](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Transformation-Re%CC%81seau-de-Neurones.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Transformation-Re%CC%81seau-de-Neurones.ipynb) |
 | [Ton accuracy stagne ? Mesure tes progrès avec le top-k](https://www.monshotdata.com/p/top-k-accuracy-mesurer-progres-modele-classification) | [Top-k Accuracy](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Top-k-Accuracy.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Top-k-Accuracy.ipynb) |
+| [Ton Random Forest peut être bien meilleur !](https://www.monshotdata.com/p/meilleur-random-forest) | [Random Forest meilleurs arbres](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Random-Forest-Meilleurs-Arbres.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Random-Forest-Meilleurs-Arbres.ipynb) |
+| [Un batch size de 128... sur un petit GPU ?](https://www.monshotdata.com/p/accumulation-gradients) | [Accumulation de gradients](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Accumulation-Gradients.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Accumulation-Gradients.ipynb) |
+| [Label smoothing : la technique simple pour mieux généraliser](https://www.monshotdata.com/p/label-smoothing-regularisation) | [Label Smoothing](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Label-Smoothing.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Label-Smoothing.ipynb) |
 
 **Autres notebooks du dossier**
 
@@ -176,13 +179,14 @@ _Consommer moins de mémoire : générateurs, types de données._
 </details>
 
 <details>
-<summary><b>Optimisation du temps d'exécution</b> · 13 notebooks</summary>
+<summary><b>Optimisation du temps d'exécution</b> · 14 notebooks</summary>
 
 _Aller plus vite : Pandas, NumPy, Numba, Codon, formats de fichiers._
 
 | Shot | Notebook | |
 |---|---|---|
 | [La vectorisation ne garantit pas toujours de meilleures performances](https://www.monshotdata.com/p/mythe-vectorisation) | [Mythe de la Vectorisation](https://github.com/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Mythe-de-la-Vectorisation.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Mythe-de-la-Vectorisation.ipynb) |
+| [Tu optimises ton code, mais pas tes fichiers ? Grosse erreur.](https://www.monshotdata.com/p/optimisation-format-stockage) | [Formats de stockage DataFrame](https://github.com/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Formats-de-Stockage-DataFrame.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Optimisation%20du%20temps%20d%27exe%CC%81cution/Formats-de-Stockage-DataFrame.ipynb) |
 
 **Autres notebooks du dossier**
 
@@ -217,7 +221,7 @@ Fichiers annexes : [`pivottablejs.html`](https://github.com/moncoachdata/MonShot
 </details>
 
 <details>
-<summary><b>Pandas</b> · 28 notebooks</summary>
+<summary><b>Pandas</b> · 29 notebooks</summary>
 
 _Manipuler les DataFrames plus vite et plus proprement._
 
@@ -242,6 +246,7 @@ _Manipuler les DataFrames plus vite et plus proprement._
 | [Enrichis tes tableaux croisés dynamiques Pandas avec une heatmap](https://www.monshotdata.com/p/astuce-pour-enrichir-les-tableaux-croises-dynamiques) | [Enrichir les tableaux croisées dynamiques](https://github.com/moncoachdata/MonShotData/blob/main/Pandas/Enrichir-les-tableaux-croise%CC%81es-dynamiques.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Pandas/Enrichir-les-tableaux-croise%CC%81es-dynamiques.ipynb) |
 | [Itérer sur un DataFrame : passe par un tableau NumPy](https://www.monshotdata.com/p/meilleur-moyen-d-iterer-sur-un-dataframe) | [Meilleur moyen d itérer un DataFrame](https://github.com/moncoachdata/MonShotData/blob/main/Pandas/Meilleur-moyen-d-ite%CC%81rer-un-DataFrame.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Pandas/Meilleur-moyen-d-ite%CC%81rer-un-DataFrame.ipynb) |
 | [Pandas vs Polars : Comparaison des performances et de la mémoire](https://www.monshotdata.com/p/pandas-vs-polars) | [Polars vs Pandas](https://github.com/moncoachdata/MonShotData/blob/main/Pandas/Polars-vs-Pandas.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Pandas/Polars-vs-Pandas.ipynb) |
+| [Sparklines : ces mini-graphiques sous-cotés qui transforment tes DataFrames](https://www.monshotdata.com/p/sparklines-visualisation-donnees) | [Sparklines DataFrame](https://github.com/moncoachdata/MonShotData/blob/main/Pandas/Sparklines-DataFrame.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Pandas/Sparklines-DataFrame.ipynb) |
 
 **Autres notebooks du dossier**
 
@@ -258,7 +263,7 @@ _Manipuler les DataFrames plus vite et plus proprement._
 </details>
 
 <details>
-<summary><b>Plotting</b> · 30 notebooks</summary>
+<summary><b>Plotting</b> · 32 notebooks</summary>
 
 _Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternatifs._
 
@@ -287,6 +292,8 @@ _Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternati
 | [Le secret pour des graphiques Matplotlib de qualité stupéfiante](https://www.monshotdata.com/p/le-secret-pour-des-graphiques-matplotlib-de-qualite-stupefiante) | [Graphiques Matplotlib SVG](https://github.com/moncoachdata/MonShotData/blob/main/Plotting/Graphiques-Matplotlib-SVG.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Plotting/Graphiques-Matplotlib-SVG.ipynb) |
 | [Tes Heatmaps sont illisibles ? L'astuce qui change tout.](https://www.monshotdata.com/p/astuce-heatmaps-illisibles) | [Heatmap Scatter](https://github.com/moncoachdata/MonShotData/blob/main/Plotting/Heatmap-Scatter.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Plotting/Heatmap-Scatter.ipynb) |
 | [Visualiser l'évolution d'un classement ? Oublie les barres.](https://www.monshotdata.com/p/bump-chart-visualisation-classement-python) | [Bump chart](https://github.com/moncoachdata/MonShotData/blob/main/Plotting/Bump-chart.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Plotting/Bump-chart.ipynb) |
+| [Rends tes graphiques Matplotlib ultra-nets avec une seule ligne de code](https://www.monshotdata.com/p/matplotlib-graphiques-nets-svg-jupyter) | [Matplotlib graphiques nets SVG](https://github.com/moncoachdata/MonShotData/blob/main/Plotting/Matplotlib-Graphiques-Nets-SVG.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Plotting/Matplotlib-Graphiques-Nets-SVG.ipynb) |
+| [Matplotlib n’est pas limité. Tu l'utilises mal.](https://www.monshotdata.com/p/matplotlib-graphiques-pro) | [Matplotlib graphiques pro](https://github.com/moncoachdata/MonShotData/blob/main/Plotting/Matplotlib-Graphiques-Pro.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Plotting/Matplotlib-Graphiques-Pro.ipynb) |
 
 **Autres notebooks du dossier**
 
@@ -301,7 +308,7 @@ _Visualisation de données : Matplotlib, Seaborn, Plotly et graphiques alternati
 </details>
 
 <details>
-<summary><b>Python</b> · 35 notebooks</summary>
+<summary><b>Python</b> · 36 notebooks</summary>
 
 _Python au-delà des bases : classes, dataclasses, mutabilité, décorateurs…_
 
@@ -320,6 +327,7 @@ _Python au-delà des bases : classes, dataclasses, mutabilité, décorateurs…_
 | [10 façons de déclarer les annotations de type en Python](https://www.monshotdata.com/p/10-facons-de-declarer-les-annotations-de-type-en-python) | [Annotations de Type](https://github.com/moncoachdata/MonShotData/blob/main/Python/Annotations-de-Type.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Python/Annotations-de-Type.ipynb) |
 | [La manipulation d'objets mutables en Python peut parfois prêter à confusion](https://www.monshotdata.com/p/manipulation-d-objets-mutables-en-python) | [Modification objet mutable](https://github.com/moncoachdata/MonShotData/blob/main/Python/Modification-objet-mutable.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Python/Modification-objet-mutable.ipynb) |
 | [Python cache un secret que peu de programmeurs connaissent](https://www.monshotdata.com/p/python-cache-un-secret-que-peu-de-programmeurs-connaissent) | [Mutabilité Python](https://github.com/moncoachdata/MonShotData/blob/main/Python/Mutabilite%CC%81-Python.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Python/Mutabilite%CC%81-Python.ipynb) |
+| [Descripteurs Python : valide tous tes attributs en une seule classe](https://www.monshotdata.com/p/python-descripteurs-valider-attributs-poo) | [Descripteurs Python](https://github.com/moncoachdata/MonShotData/blob/main/Python/Descripteurs-Python.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Python/Descripteurs-Python.ipynb) |
 
 **Autres notebooks du dossier**
 
@@ -370,13 +378,15 @@ _Scikit-learn : modèles de base, KMeans avec Faiss, Skorch, arbres de décision
 </details>
 
 <details>
-<summary><b>SQL</b> · 1 notebooks</summary>
+<summary><b>SQL</b> · 3 notebooks</summary>
 
-_Les joins SQL avec DuckDB : semi join, anti join, natural join._
+_Requêtes SQL avec DuckDB : joins, piège de NOT IN, GROUPING SETS._
 
 | Shot | Notebook | |
 |---|---|---|
 | [Semi, Anti et Natural Join : 3 joins SQL méconnus](https://www.monshotdata.com/p/semi-join-anti-join-natural-join-sql) | [Semi, Anti et Natural Join](https://github.com/moncoachdata/MonShotData/blob/main/SQL/Semi-Anti-Natural-Join.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/SQL/Semi-Anti-Natural-Join.ipynb) |
+| [NOT IN en SQL : l'erreur invisible qui te coûte des heures](https://www.monshotdata.com/p/erreur-silencieuse-sql-not-in-null) | [Clause NOT IN](https://github.com/moncoachdata/MonShotData/blob/main/SQL/Clause-NOT-IN.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/SQL/Clause-NOT-IN.ipynb) |
+| [SQL GROUPING SETS : la technique sous-estimée pour agréger en un scan](https://www.monshotdata.com/p/sql-grouping-sets-agregations-multiples-scan-unique) | [Grouping Sets SQL](https://github.com/moncoachdata/MonShotData/blob/main/SQL/Grouping-Sets-SQL.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/SQL/Grouping-Sets-SQL.ipynb) |
 
 </details>
 
