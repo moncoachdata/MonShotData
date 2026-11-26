@@ -2,7 +2,7 @@
 
 Ce dépôt réunit le code Python des shots de la newsletter [MonShotData](https://www.monshotdata.com) : des astuces concrètes en data science, machine learning et IA, que tu peux appliquer tout de suite.
 
-Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **185 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
+Les notebooks Jupyter qui accompagnent les shots sont ici, rangés par thème : **186 notebooks** répartis en 16 dossiers de sujets, plus un dossier de jeux de données.
 
 ## Comment retrouver le code d'un shot
 
@@ -29,7 +29,7 @@ jupyter notebook
 | [`Astuces Jupyter`](https://github.com/moncoachdata/MonShotData/tree/main/Astuces%20Jupyter) | Gagner du temps dans Jupyter : commandes magiques, sorties de cellules, interactivité. | 6 |
 | [`Debugging`](https://github.com/moncoachdata/MonShotData/tree/main/Debugging) | Déboguer autrement qu'avec `print()` : IceCream, PySnooper. | 3 |
 | [`Données Manquantes`](https://github.com/moncoachdata/MonShotData/tree/main/Donne%CC%81es%20Manquantes) | Visualiser et gérer les valeurs manquantes. | 2 |
-| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données. | 33 |
+| [`Machine Learning`](https://github.com/moncoachdata/MonShotData/tree/main/Machine%20Learning) | Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données. | 34 |
 | [`NumPy`](https://github.com/moncoachdata/MonShotData/tree/main/NumPy) | Calcul matriciel, performances et petites astuces NumPy. | 8 |
 | [`Optimisation Mémoire`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20Me%CC%81moire) | Consommer moins de mémoire : générateurs, types de données. | 4 |
 | [`Optimisation du temps d'exécution`](https://github.com/moncoachdata/MonShotData/tree/main/Optimisation%20du%20temps%20d%27exe%CC%81cution) | Aller plus vite : Pandas, NumPy, Numba, Codon, Spark, formats de fichiers. | 15 |
@@ -95,7 +95,7 @@ _Visualiser et gérer les valeurs manquantes._
 </details>
 
 <details>
-<summary><b>Machine Learning</b> · 33 notebooks</summary>
+<summary><b>Machine Learning</b> · 34 notebooks</summary>
 
 _Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, évaluation et préparation des données._
 
@@ -123,6 +123,7 @@ _Clustering, régression, PCA, réseaux de neurones, entraînement PyTorch, éva
 | [Ton Random Forest peut être bien meilleur !](https://www.monshotdata.com/p/meilleur-random-forest) | [Random Forest meilleurs arbres](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Random-Forest-Meilleurs-Arbres.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Random-Forest-Meilleurs-Arbres.ipynb) |
 | [Un batch size de 128... sur un petit GPU ?](https://www.monshotdata.com/p/accumulation-gradients) | [Accumulation de gradients](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Accumulation-Gradients.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Accumulation-Gradients.ipynb) |
 | [Label smoothing : la technique simple pour mieux généraliser](https://www.monshotdata.com/p/label-smoothing-regularisation) | [Label Smoothing](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/Label-Smoothing.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/Label-Smoothing.ipynb) |
+| [Pourquoi le Dropout régularise si mal tes CNN](https://www.monshotdata.com/p/dropblock-regularisation-cnn-pytorch) | [DropBlock](https://github.com/moncoachdata/MonShotData/blob/main/Machine%20Learning/DropBlock.ipynb) | [Colab](https://colab.research.google.com/github/moncoachdata/MonShotData/blob/main/Machine%20Learning/DropBlock.ipynb) |
 
 **Autres notebooks du dossier**
 
